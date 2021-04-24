@@ -1,0 +1,217 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.container {
+    position: relative;
+    margin: 20px 200px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 125px;
+    width: 80%;
+}
+
+.heading-bold {
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;
+}
+
+.heading-thin {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.button-container {
+    display: flex;
+}
+
+.text {
+    margin-left: 20px;
+    font-size: 30px;
+    margin-right: 100px;
+}
+
+.btn {
+    color: red;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.card {
+    border: 1px solid red;
+    width: 25%;
+    height: 350px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px gray;
+}
+
+.div1 {
+    margin-left: 35px;
+}
+
+.uptext {
+    font-size: 25px;
+    color: red;
+    text-align: left;
+}
+
+.line {
+    position: relative;
+    bottom: 20px;
+}
+
+.task {
+    color: rgb(252, 5, 13);
+    margin-left: 30px;
+    text-decoration: line-through solid red;
+    font-size: 22px;
+}
+
+.newtext {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.containernext {
+    margin: 150px 100px;
+    width: 70%;
+}
+
+.head {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.bold-head {
+    font-size: 50px;
+    font-weight: bold;
+    width: 40%;
+}
+
+.line-left {
+    width: 15%;
+    position: relative;
+    left: 160px;
+    top: 15px;
+}
+
+.line-right {
+    width: 15%;
+    position: relative;
+    right: 150px;
+    top: 15px;
+}
+
+hr {
+    height: 1px;
+    border-width: 0;
+    background-color: gray;
+}
+
+.button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.des {
+    color: gray;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.new {
+    width: 42%;
+    text-align: center;
+    justify-content: space-around;
+    position: relative;
+    left: 100px;
+}
+
+.up {
+    text-align: center;
+}
+
+.li {
+    margin-left: 90px;
+}
+
+.pos {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+#blur {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.bg-text {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    border: 1px solid red;
+    width: 30%;
+    height: 30%;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px gray;
+    background-color: white;
+}
+
+.lesswidth {
+    width: 25%;
+    left: 29%;
+    height: 26%;
+}
+
+.blur-text {
+    text-align: center;
+    color: red;
+    font-weight: 400;
+    font-size: smaller
+}
+
+.blur-button {
+    width: 75%;
+    height: 40px;
+    margin-left: 60px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 4px 4px 10px gray;
+    cursor: pointer;
+}
+
+.round {
+    width: 23%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-shadow: none;
+    position: relative;
+    left: 25%;
+    font-size: 25px;
+    color: white;
+    background-color: red;
+}
